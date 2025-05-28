@@ -23,15 +23,15 @@ This project demonstrates how to build, export, and deploy a classification neur
 ```
 
 .
-├── Dockerfile               # Custom container for deployment
-├── main.py                 # Cerebrium entrypoint (run function)
-├── model.py                # ONNX runtime + preprocessing class
-├── convert\_to\_onnx.py      # Converts model + preprocessing to ONNX
-├── classifier.onnx         # Final ONNX model (with preprocessing)
-├── requirements.txt        # Runtime dependencies
-├── cerebrium.toml          # Cerebrium deployment config
-├── test\_server.py          # CLI tool to test Cerebrium endpoint
-└── .github/workflows/docker-build.yml  # CI pipeline for Docker
+- Dockerfile               # Custom container for deployment
+- main.py                 # Cerebrium entrypoint (run function)
+- model.py                # ONNX runtime + preprocessing class
+- convert\_to\_onnx.py      # Converts model + preprocessing to ONNX
+- classifier.onnx         # Final ONNX model (with preprocessing)
+- requirements.txt        # Runtime dependencies
+- cerebrium.toml          # Cerebrium deployment config
+- test\_server.py          # CLI tool to test Cerebrium endpoint
+- .github/workflows/docker-build.yml  # CI pipeline for Docker
 
 ````
 
